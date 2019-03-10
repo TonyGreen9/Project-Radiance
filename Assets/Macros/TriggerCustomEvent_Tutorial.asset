@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: TriggerCustomEvent_Tutorial
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-329.0,"y":3.0},"zoom":1.0,"elements":[{"argumentCount":0,"defaultValues":{"name":{"$content":"PassKnight","$type":"System.String"},"target":null},"position":{"x":-168.0,"y":-120.0},"guid":"c20b6c71-5e72-469c-918a-ee21d1df5e3c","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"9"},{"chainable":false,"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-360.0,"y":-120.0},"guid":"13e14e56-e978-4f5c-bfbe-e44455d44fcc","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-600.0,"y":-120.0},"guid":"6f557e47-88a3-4d80-8717-a219e70e7c92","$version":"A","$type":"Bolt.OnTriggerEnter","$id":"14"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"56707ac1-2597-4c9a-9669-877e270f7c8e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"75dfce05-fa78-4f95-af1c-88969e46f238","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"collider","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"c2853827-6cc3-4e4f-8e23-80830e4c48a1","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
