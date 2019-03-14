@@ -90,6 +90,7 @@ ModelImporter:
     100168: ThumbFinger3_R
     100170: Wrist_L
     100172: Wrist_R
+    100174: TestChar_mesh
     400000: Ankle_L
     400002: Ankle_R
     400004: BackA_M
@@ -177,10 +178,14 @@ ModelImporter:
     400168: ThumbFinger3_R
     400170: Wrist_L
     400172: Wrist_R
+    400174: TestChar_mesh
     2100000: CHA_Teleporter_witch_lobby_lambert2
+    2100002: TestChar
     4300000: CHA_Teleporter_witch_lobby_mesh
+    4300002: TestChar_mesh
     9500000: //RootNode
     13700000: CHA_Teleporter_witch_lobby_mesh
+    13700002: TestChar_mesh
   externalObjects: {}
   materials:
     importMaterials: 1
