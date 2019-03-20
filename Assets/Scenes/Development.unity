@@ -4839,6 +4839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestChar
       objectReference: {fileID: 0}
+    - target: {fileID: 5914233360549166401, guid: 4902ec5fb8b477c42933159daf7f5a41,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5914233360549166413, guid: 4902ec5fb8b477c42933159daf7f5a41,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9837,6 +9842,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7725836383229333297, guid: f79232e91e1d6f64dacd22834cfb71e6,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Distance to Player","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f79232e91e1d6f64dacd22834cfb71e6, type: 3}
