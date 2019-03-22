@@ -8,10 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TestEnemy
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 26fbd833f790f6048a4617c160d7f08f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -19,7 +19,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BakedNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -39,30 +55,77 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Outline_Sampler:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Outline: 0.69
+    - Vector1_586FF13F: 0.15
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 0
     - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Farthest_Distance: 100
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Is_BakedNormal: 0
+    - _Is_BlendBaseColor: 0
+    - _Is_LightColor_Base: 1
+    - _Is_OutlineTex: 0
     - _Metallic: 0
+    - _Mode: 0
+    - _Nearest_Distance: 0.5
+    - _OUTLINE: 0
     - _OcclusionStrength: 1
+    - _Offset_Z: 0
+    - _OutLineSize: 1.81
+    - _Outline: 0.247
+    - _OutlineDot: 8.24
+    - _OutlineExtrusion: 0.05
+    - _OutlineHigh: 0.172
+    - _OutlineLow: 0
+    - _Outline_Width: 1.64
+    - _Parallax: 0.02
     - _ReceiveShadows: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _UVSec: 0
+    - _UseVert: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - _simpleUI: 0
+    - _utsTechnique: 2
+    - _utsVersion: 2.06
     m_Colors:
+    - Color_6A146976: {r: 0.9999999, g: 0, b: 0.10994763, a: 0}
+    - Color_D0849339: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutLineColor: {r: 0.7830189, g: 0.1735938, b: 0.1735938, a: 1}
+    - _OutlineColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Outline_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

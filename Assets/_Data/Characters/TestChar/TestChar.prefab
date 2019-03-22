@@ -83,6 +83,7 @@ GameObject:
   - component: {fileID: 710561051}
   - component: {fileID: 5238458931191662297}
   - component: {fileID: 710561052}
+  - component: {fileID: 1243246805}
   m_Layer: 0
   m_Name: TestChar
   m_TagString: Player
@@ -115,7 +116,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 5914233360549166401}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.01
+  m_Radius: 0.05
   m_Speed: 6
   m_Acceleration: 3000
   avoidancePriority: 50
@@ -189,6 +190,22 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &1243246805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5914233360549166401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 24346bd32f706c141811d156f9f297ad, type: 2}
 --- !u!1001 &1776819558677485634
 PrefabInstance:
   m_ObjectHideFlags: 0
