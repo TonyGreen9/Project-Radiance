@@ -14,25 +14,37 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Run Speed
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Run
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Attack
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: AttackSpeed
+    m_Type: 1
+    m_DefaultFloat: 1.5
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Cast time
+    m_Type: 1
+    m_DefaultFloat: 0.3
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -163,16 +175,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 0
+  m_SpeedParameterActive: 1
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 01f3c8b6ab79ab547ac00177dd66a9a3, type: 3}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: AttackSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: Cast time
 --- !u!1102 &1102370299618180606
 AnimatorState:
   serializedVersion: 5
@@ -240,10 +252,10 @@ AnimatorStateMachine:
     m_Position: {x: 348, y: 132, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102370299618180606}
-    m_Position: {x: 348, y: -12, z: 0}
+    m_Position: {x: 108, y: 24, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102053814835288936}
-    m_Position: {x: 588, y: -12, z: 0}
+    m_Position: {x: 576, y: 24, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101167391521851070}
@@ -252,7 +264,7 @@ AnimatorStateMachine:
   - {fileID: 1109812562885476242}
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 48, y: -12, z: 0}
+  m_AnyStatePosition: {x: 360, y: -96, z: 0}
   m_EntryPosition: {x: 48, y: 132, z: 0}
   m_ExitPosition: {x: 48, y: 300, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
