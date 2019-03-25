@@ -425,6 +425,10 @@ PrefabInstance:
       propertyPath: m_RootBone
       value: 
       objectReference: {fileID: 4206027403830989918}
+    - target: {fileID: 13700000, guid: d5f0b6d8d5174bd4b87f289baa66cc36, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: d5f0b6d8d5174bd4b87f289baa66cc36, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.32217142

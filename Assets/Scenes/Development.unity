@@ -619,6 +619,7 @@ GameObject:
   - component: {fileID: 291377426}
   - component: {fileID: 291377431}
   - component: {fileID: 291377430}
+  - component: {fileID: 291377428}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -656,6 +657,19 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291377424}
   m_Enabled: 1
+--- !u!114 &291377428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291377424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e236d886d71983944b3102950dcf52f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OutlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!20 &291377429
 Camera:
   m_ObjectHideFlags: 0
@@ -1924,6 +1938,11 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1615592021}
+    - target: {fileID: 1776819558663918560, guid: 4902ec5fb8b477c42933159daf7f5a41,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4902ec5fb8b477c42933159daf7f5a41, type: 3}
 --- !u!1 &764286898

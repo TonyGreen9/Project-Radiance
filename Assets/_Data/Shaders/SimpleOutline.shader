@@ -1,47 +1,86 @@
-﻿Shader "Unlit/SimpleOutline"
-{
-    SubShader
-    {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
+Shader "GS/SimpleOutline"
 
-        Pass
-        {
+{
+	Properties
+	{
+		_Color("Main Color", Color) = (0.5,0.5,0.5,1)
+		_MainTex ("Texture", 2D) = "white" {}
+		_OutlineColor ("Outline color", Color) = (0,0,0,1)
+		_OutlineWidth ("Outlines width", Range (0.0, 2.0)) = 0.035
+	}
+
+	CGINCLUDE
+	#include "UnityCG.cginc"
+
+	struct appdata
+	{
+		float4 vertex : POSITION;
+	};
+
+	struct v2f
+	{
+		float4 pos : POSITION;
+	};
+
+	uniform float _OutlineWidth;
+	uniform float4 _OutlineColor;
+	uniform sampler2D _MainTex;
+	uniform float4 _Color;
+
+	ENDCG
+
+	SubShader
+	{
+		Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" }
+
+		Pass //Outline
+		{
             Stencil {
                 Ref 2
                 Comp notequal
                 Pass keep
             }
-            HLSLPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-                        
-            #include "Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl"
+			ZWrite Off
+			Cull Back
+			CGPROGRAM
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
-            };
+			#pragma vertex vert
+			#pragma fragment frag
 
-            struct v2f
-            {
-                float4 vertex : SV_POSITION;
-            };
+			v2f vert(appdata v)
+			{
+				appdata original = v;
+				v.vertex.xyz += _OutlineWidth * normalize(v.vertex.xyz);
 
-            half4 _OutlineColor;
-            v2f vert (appdata v)
-            {
-                v2f o;
-		v.vertex.xyz += 0.02 * normalize(v.vertex.xyz);
-		o.vertex = TransformObjectToHClip(v.vertex.xyz);        
-                return o;
-            }
+				v2f o;
+				o.pos = UnityObjectToClipPos(v.vertex);
+				return o;
 
-            half4 frag (v2f i) : SV_Target
-            {
-                return _OutlineColor;
-            }
-            ENDHLSL
-        }
-    }
+			}
+
+			half4 frag(v2f i) : COLOR
+			{
+				return _OutlineColor;
+			}
+
+			ENDCG
+		}
+
+		Tags{ "Queue" = "Geometry"}
+
+		CGPROGRAM
+		#pragma surface surf Lambert
+		 
+		struct Input {
+			float2 uv_MainTex;
+		};
+		 
+		void surf (Input IN, inout SurfaceOutput o) {
+			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
+			o.Albedo = c.rgb;
+			o.Alpha = c.a;
+		}
+		ENDCG
+	}
+	Fallback "Diffuse"
 }
