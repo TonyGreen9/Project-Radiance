@@ -39,10 +39,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1388129853289618007}
+  - component: {fileID: 2262185706710987989}
+  - component: {fileID: 1535398122064255811}
   - component: {fileID: 7725836383229333295}
   - component: {fileID: 7725836383229333296}
+  - component: {fileID: 5718127342552893332}
   - component: {fileID: 7725836383229333297}
-  - component: {fileID: 2262185706710987989}
   m_Layer: 0
   m_Name: TestEnemy
   m_TagString: Enemy
@@ -66,6 +68,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2262185706710987989
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725836383229333294}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d5f0b6d8d5174bd4b87f289baa66cc36, type: 3}
+  m_Controller: {fileID: 9100000, guid: 0c98f870bb495724eae97b2692560f76, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &1535398122064255811
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725836383229333294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.39
+  m_Height: 1.193195
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!195 &7725836383229333295
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -104,6 +139,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 76cc0960b2afde644b48d4a69be0b860, type: 2}
+--- !u!114 &5718127342552893332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725836383229333294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a77f3c07283bc9a4ea5187eda1a70a38, type: 2}
 --- !u!114 &7725836383229333297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,27 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceToPlayer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"DistanceToRespawn","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ChaseTarget","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Shuffle","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceToPlayer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"DistanceToRespawn","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ChaseTarget","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Shuffle","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Healt","value":{"$content":15,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!95 &2262185706710987989
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7725836383229333294}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d5f0b6d8d5174bd4b87f289baa66cc36, type: 3}
-  m_Controller: {fileID: 9100000, guid: 0c98f870bb495724eae97b2692560f76, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &4206027403830595326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -969,9 +1001,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4206027403830595326}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &4206027403830989898 stripped
+--- !u!4 &4206027403830989944 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400052, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
+  m_CorrespondingSourceObject: {fileID: 400006, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
     type: 3}
   m_PrefabInstance: {fileID: 4206027403830595326}
   m_PrefabAsset: {fileID: 0}
@@ -1065,21 +1097,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4206027403830595326}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &4206027403830989934 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400016, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
-    type: 3}
-  m_PrefabInstance: {fileID: 4206027403830595326}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4206027403830989946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
     type: 3}
   m_PrefabInstance: {fileID: 4206027403830595326}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &4206027403830989944 stripped
+--- !u!4 &4206027403830989898 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400006, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
+  m_CorrespondingSourceObject: {fileID: 400052, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
+    type: 3}
+  m_PrefabInstance: {fileID: 4206027403830595326}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4206027403830989934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400016, guid: d5f0b6d8d5174bd4b87f289baa66cc36,
     type: 3}
   m_PrefabInstance: {fileID: 4206027403830595326}
   m_PrefabAsset: {fileID: 0}
