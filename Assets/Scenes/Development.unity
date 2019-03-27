@@ -669,6 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e236d886d71983944b3102950dcf52f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OutlineShader: {fileID: 4800000, guid: 3206e1b90e9208143810b86a4e5d4ade, type: 3}
   OutlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!20 &291377429
 Camera:

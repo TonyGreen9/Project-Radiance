@@ -9,12 +9,12 @@ namespace GamingSense.Flint.Prot
 		private readonly Material _outlineMaterial;
 		private readonly FilterRenderersSettings _outlineFilterSettings;
 
-		public OutlinePassImpl(Color outlineColor)
+		public OutlinePassImpl(Shader outlineShader, Color outlineColor)
 		{
 			// Должно совпадать с тегом прохода шейдера, висящем на объекте, как в шейдере SimpleColor
 			RegisterShaderPassName("LightweightForward");
 			// Соответствует имени outline shader, указанному выше
-			_outlineMaterial = CoreUtils.CreateEngineMaterial("GS/SimpleOutline");
+			_outlineMaterial = CoreUtils.CreateEngineMaterial(outlineShader);
 
 			var outlineColorId = Shader.PropertyToID("_OutlineColor");
 			_outlineMaterial.SetColor(outlineColorId, outlineColor);
