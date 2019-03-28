@@ -88,7 +88,6 @@ GameObject:
   - component: {fileID: 5211791568270804910}
   - component: {fileID: 2062763403}
   - component: {fileID: 2062763404}
-  - component: {fileID: 3271322312171676428}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Projectile
@@ -142,16 +141,3 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!135 &3271322312171676428
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4494926108370041411}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.52
-  m_Center: {x: 0, y: 0, z: 0}
