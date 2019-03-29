@@ -5,7 +5,7 @@
 		_Color("Main Color", Color) = (0.5,0.5,0.5,1)
 		_MainTex("Texture", 2D) = "white" {}
 
-		_FirstOutlineColor("Outline color", Color) = (0.5,0,0,1)
+		_FirstOutlineColor("Outline color", Color) = (1,0,0,1)
 		_FirstOutlineWidth("Outlines width", Range(0.0, 2.0)) = 0.02
 
 	
