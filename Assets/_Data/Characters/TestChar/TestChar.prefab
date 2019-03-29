@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 13700002, guid: 175c81f916f8b8b4288763cbe78812e3, type: 3}
       propertyPath: m_RenderingLayerMask
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 13700002, guid: 175c81f916f8b8b4288763cbe78812e3, type: 3}
       propertyPath: m_Materials.Array.data[0]
