@@ -156,7 +156,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.16786571
+        functionName: TriggerAnimationEvent
+        data: Cast
+        objectReferenceParameter: {fileID: 11400000, guid: eb77b997f6d77214aa8c12af1393eefc,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
