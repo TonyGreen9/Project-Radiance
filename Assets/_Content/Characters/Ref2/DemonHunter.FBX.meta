@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 5f3d44cd235acf74ca211091493c02aa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 38_Base(1)_1_0_0
+    100002: 38_Base(2)_1_0_0
+    100004: 38_Base_1_0_0
+    100006: arm left elbow
+    100008: arm left finger 1a
+    100010: arm left finger 1b
+    100012: arm left finger 1b_end
+    100014: arm left finger 2a
+    100016: arm left finger 2b
+    100018: arm left finger 2b_end
+    100020: arm left finger 4a
+    100022: arm left finger 4b
+    100024: arm left finger 4b_end
+    100026: arm left shoulder 1
+    100028: arm left shoulder 2
+    100030: arm left wrist
+    100032: arm right elbow
+    100034: arm right finger 1a
+    100036: arm right finger 1b
+    100038: arm right finger 1b_end
+    100040: arm right finger 2a
+    100042: arm right finger 2b
+    100044: arm right finger 2b_end
+    100046: arm right finger 3a
+    100048: arm right finger 3b
+    100050: arm right finger 3b_end
+    100052: arm right shoulder 1
+    100054: arm right shoulder 2
+    100056: arm right wrist
+    100058: Armature
+    100060: bag back
+    100062: bag left 1
+    100064: bag left 1_end
+    100066: bag left 2
+    100068: bag left 2_end
+    100070: bag right
+    100072: bag right_end
+    100074: cape 1
+    100076: cape 2
+    100078: cape 3
+    100080: cape 4
+    100082: cape 5
+    100084: cape 5_end
+    100086: //RootNode
+    100088: DrawCall_0009.000
+    100090: DrawCall_0010.000
+    100092: DrawCall_0011.000
+    100094: DrawCall_0012.000
+    100096: DrawCall_0013.000
+    100098: DrawCall_0014.000
+    100100: DrawCall_0015.000
+    100102: DrawCall_0016.000
+    100104: DrawCall_0017.000
+    100106: DrawCall_0018.000
+    100108: DrawCall_0019.000
+    100110: hair left
+    100112: hair left_end
+    100114: hair right
+    100116: hair right_end
+    100118: head neck lower
+    100120: head neck upper
+    100122: Lamp
+    100124: Lamp.001
+    100126: Lamp.002
+    100128: leg left ankle
+    100130: leg left knee
+    100132: leg left thigh
+    100134: leg left toes
+    100136: leg left toes_end
+    100138: leg right ankle
+    100140: leg right knee
+    100142: leg right thigh
+    100144: leg right toes
+    100146: leg right toes_end
+    100148: pelvis
+    100150: Plane01.000
+    100152: root ground
+    100154: root hips
+    100156: shoulderpad left
+    100158: shoulderpad left_end
+    100160: shoulderpad right
+    100162: shoulderpad right_end
+    100164: skirt left
+    100166: skirt right
+    100168: spine 1
+    100170: spine 2
+    100172: spine 3
+    100174: unused bone_overhead
+    100176: unused bone_sword_l
+    100178: unused bone_sword_nub_l
+    100180: unused bone_sword_nub_l_end
+    100182: unused bone_sword_nub_r
+    100184: unused bone_sword_nub_r_end
+    100186: unused bone_sword_r
+    100188: unused bone_sword_twist_l
+    100190: unused bone_sword_twist_l_end
+    100192: unused bone_sword_twist_r
+    100194: unused bone_sword_twist_r_end
+    100196: unused hittestfuzzy
+    100198: unused hittestfuzzy01
+    100200: unused hittestfuzzy01_end
+    100202: unused hittestfuzzy02
+    100204: unused hittestfuzzy02_end
+    100206: unused hittestfuzzy03
+    100208: unused hittestfuzzy03_end
+    100210: unused hittestfuzzy_end
+    100212: unused hittesttight
+    100214: unused hittesttight_end
+    100216: unused mesh_base_armor
+    100218: unused mesh_base_armor_end
+    100220: unused mesh_base_cloth_sim
+    100222: unused mesh_base_cloth_sim_end
+    100224: unused mesh_base_cloth_vis
+    100226: unused mesh_base_cloth_vis_end
+    100228: unused mesh_base_hood
+    100230: unused mesh_base_hood_end
+    100232: unused ref_back
+    100234: unused ref_back_end
+    100236: unused ref_center
+    100238: unused ref_center_end
+    100240: unused ref_chest
+    100242: unused ref_chest_end
+    100244: unused ref_chin
+    100246: unused ref_chin_end
+    100248: unused ref_face
+    100250: unused ref_face_end
+    100252: unused ref_foot left
+    100254: unused ref_foot left_end
+    100256: unused ref_foot right
+    100258: unused ref_foot right_end
+    100260: unused ref_forearm left
+    100262: unused ref_forearm left_end
+    100264: unused ref_forearm right
+    100266: unused ref_forearm right_end
+    100268: unused ref_hand left
+    100270: unused ref_hand left_end
+    100272: unused ref_hand right
+    100274: unused ref_hand right_end
+    100276: unused ref_head
+    100278: unused ref_head top
+    100280: unused ref_head top_end
+    100282: unused ref_head_end
+    100284: unused ref_knee left
+    100286: unused ref_knee left_end
+    100288: unused ref_knee right
+    100290: unused ref_knee right_end
+    100292: unused ref_lip upper
+    100294: unused ref_lip upper_end
+    100296: unused ref_origin
+    100298: unused ref_origin_end
+    100300: unused ref_overhead
+    100302: unused ref_overhead_end
+    100304: unused ref_shoulder left
+    100306: unused ref_shoulder left_end
+    100308: unused ref_shoulder right
+    100310: unused ref_shoulder right_end
+    100312: unused ref_waist back
+    100314: unused ref_waist back_end
+    100316: unused ref_waist front
+    100318: unused ref_waist front_end
+    100320: unused ref_waist left
+    100322: unused ref_waist left_end
+    100324: unused ref_waist right
+    100326: unused ref_waist right_end
+    100328: unused ref_weapon left
+    100330: unused ref_weapon left_end
+    100332: unused ref_weapon right
+    100334: unused ref_weapon right_end
+    100336: unused sc2physics_bone_arm_l
+    100338: unused sc2physics_bone_arm_l_end
+    100340: unused sc2physics_bone_arm_r
+    100342: unused sc2physics_bone_arm_r_end
+    100344: unused sc2physics_bone_armfore_l
+    100346: unused sc2physics_bone_armfore_l_end
+    100348: unused sc2physics_bone_armfore_r
+    100350: unused sc2physics_bone_armfore_r_end
+    100352: unused sc2physics_bone_bag_back
+    100354: unused sc2physics_bone_bag_back_end
+    100356: unused sc2physics_bone_hip
+    100358: unused sc2physics_bone_hip_end
+    100360: unused sc2physics_bone_legcalf_l
+    100362: unused sc2physics_bone_legcalf_l_end
+    100364: unused sc2physics_bone_legcalf_r
+    100366: unused sc2physics_bone_legcalf_r_end
+    100368: unused sc2physics_bone_legthigh_l
+    100370: unused sc2physics_bone_legthigh_l_end
+    100372: unused sc2physics_bone_legthigh_r
+    100374: unused sc2physics_bone_legthigh_r_end
+    100376: unused sc2physics_bone_torso001
+    100378: unused sc2physics_bone_torso001_end
+    100380: unused vol_shield
+    100382: unused vol_shield_end
+    100384: unused vol_target
+    100386: unused vol_target 01
+    100388: unused vol_target 01_end
+    100390: unused vol_target_end
+    100392: wristguard left
+    100394: wristguard left_end
+    400000: 38_Base(1)_1_0_0
+    400002: 38_Base(2)_1_0_0
+    400004: 38_Base_1_0_0
+    400006: arm left elbow
+    400008: arm left finger 1a
+    400010: arm left finger 1b
+    400012: arm left finger 1b_end
+    400014: arm left finger 2a
+    400016: arm left finger 2b
+    400018: arm left finger 2b_end
+    400020: arm left finger 4a
+    400022: arm left finger 4b
+    400024: arm left finger 4b_end
+    400026: arm left shoulder 1
+    400028: arm left shoulder 2
+    400030: arm left wrist
+    400032: arm right elbow
+    400034: arm right finger 1a
+    400036: arm right finger 1b
+    400038: arm right finger 1b_end
+    400040: arm right finger 2a
+    400042: arm right finger 2b
+    400044: arm right finger 2b_end
+    400046: arm right finger 3a
+    400048: arm right finger 3b
+    400050: arm right finger 3b_end
+    400052: arm right shoulder 1
+    400054: arm right shoulder 2
+    400056: arm right wrist
+    400058: Armature
+    400060: bag back
+    400062: bag left 1
+    400064: bag left 1_end
+    400066: bag left 2
+    400068: bag left 2_end
+    400070: bag right
+    400072: bag right_end
+    400074: cape 1
+    400076: cape 2
+    400078: cape 3
+    400080: cape 4
+    400082: cape 5
+    400084: cape 5_end
+    400086: //RootNode
+    400088: DrawCall_0009.000
+    400090: DrawCall_0010.000
+    400092: DrawCall_0011.000
+    400094: DrawCall_0012.000
+    400096: DrawCall_0013.000
+    400098: DrawCall_0014.000
+    400100: DrawCall_0015.000
+    400102: DrawCall_0016.000
+    400104: DrawCall_0017.000
+    400106: DrawCall_0018.000
+    400108: DrawCall_0019.000
+    400110: hair left
+    400112: hair left_end
+    400114: hair right
+    400116: hair right_end
+    400118: head neck lower
+    400120: head neck upper
+    400122: Lamp
+    400124: Lamp.001
+    400126: Lamp.002
+    400128: leg left ankle
+    400130: leg left knee
+    400132: leg left thigh
+    400134: leg left toes
+    400136: leg left toes_end
+    400138: leg right ankle
+    400140: leg right knee
+    400142: leg right thigh
+    400144: leg right toes
+    400146: leg right toes_end
+    400148: pelvis
+    400150: Plane01.000
+    400152: root ground
+    400154: root hips
+    400156: shoulderpad left
+    400158: shoulderpad left_end
+    400160: shoulderpad right
+    400162: shoulderpad right_end
+    400164: skirt left
+    400166: skirt right
+    400168: spine 1
+    400170: spine 2
+    400172: spine 3
+    400174: unused bone_overhead
+    400176: unused bone_sword_l
+    400178: unused bone_sword_nub_l
+    400180: unused bone_sword_nub_l_end
+    400182: unused bone_sword_nub_r
+    400184: unused bone_sword_nub_r_end
+    400186: unused bone_sword_r
+    400188: unused bone_sword_twist_l
+    400190: unused bone_sword_twist_l_end
+    400192: unused bone_sword_twist_r
+    400194: unused bone_sword_twist_r_end
+    400196: unused hittestfuzzy
+    400198: unused hittestfuzzy01
+    400200: unused hittestfuzzy01_end
+    400202: unused hittestfuzzy02
+    400204: unused hittestfuzzy02_end
+    400206: unused hittestfuzzy03
+    400208: unused hittestfuzzy03_end
+    400210: unused hittestfuzzy_end
+    400212: unused hittesttight
+    400214: unused hittesttight_end
+    400216: unused mesh_base_armor
+    400218: unused mesh_base_armor_end
+    400220: unused mesh_base_cloth_sim
+    400222: unused mesh_base_cloth_sim_end
+    400224: unused mesh_base_cloth_vis
+    400226: unused mesh_base_cloth_vis_end
+    400228: unused mesh_base_hood
+    400230: unused mesh_base_hood_end
+    400232: unused ref_back
+    400234: unused ref_back_end
+    400236: unused ref_center
+    400238: unused ref_center_end
+    400240: unused ref_chest
+    400242: unused ref_chest_end
+    400244: unused ref_chin
+    400246: unused ref_chin_end
+    400248: unused ref_face
+    400250: unused ref_face_end
+    400252: unused ref_foot left
+    400254: unused ref_foot left_end
+    400256: unused ref_foot right
+    400258: unused ref_foot right_end
+    400260: unused ref_forearm left
+    400262: unused ref_forearm left_end
+    400264: unused ref_forearm right
+    400266: unused ref_forearm right_end
+    400268: unused ref_hand left
+    400270: unused ref_hand left_end
+    400272: unused ref_hand right
+    400274: unused ref_hand right_end
+    400276: unused ref_head
+    400278: unused ref_head top
+    400280: unused ref_head top_end
+    400282: unused ref_head_end
+    400284: unused ref_knee left
+    400286: unused ref_knee left_end
+    400288: unused ref_knee right
+    400290: unused ref_knee right_end
+    400292: unused ref_lip upper
+    400294: unused ref_lip upper_end
+    400296: unused ref_origin
+    400298: unused ref_origin_end
+    400300: unused ref_overhead
+    400302: unused ref_overhead_end
+    400304: unused ref_shoulder left
+    400306: unused ref_shoulder left_end
+    400308: unused ref_shoulder right
+    400310: unused ref_shoulder right_end
+    400312: unused ref_waist back
+    400314: unused ref_waist back_end
+    400316: unused ref_waist front
+    400318: unused ref_waist front_end
+    400320: unused ref_waist left
+    400322: unused ref_waist left_end
+    400324: unused ref_waist right
+    400326: unused ref_waist right_end
+    400328: unused ref_weapon left
+    400330: unused ref_weapon left_end
+    400332: unused ref_weapon right
+    400334: unused ref_weapon right_end
+    400336: unused sc2physics_bone_arm_l
+    400338: unused sc2physics_bone_arm_l_end
+    400340: unused sc2physics_bone_arm_r
+    400342: unused sc2physics_bone_arm_r_end
+    400344: unused sc2physics_bone_armfore_l
+    400346: unused sc2physics_bone_armfore_l_end
+    400348: unused sc2physics_bone_armfore_r
+    400350: unused sc2physics_bone_armfore_r_end
+    400352: unused sc2physics_bone_bag_back
+    400354: unused sc2physics_bone_bag_back_end
+    400356: unused sc2physics_bone_hip
+    400358: unused sc2physics_bone_hip_end
+    400360: unused sc2physics_bone_legcalf_l
+    400362: unused sc2physics_bone_legcalf_l_end
+    400364: unused sc2physics_bone_legcalf_r
+    400366: unused sc2physics_bone_legcalf_r_end
+    400368: unused sc2physics_bone_legthigh_l
+    400370: unused sc2physics_bone_legthigh_l_end
+    400372: unused sc2physics_bone_legthigh_r
+    400374: unused sc2physics_bone_legthigh_r_end
+    400376: unused sc2physics_bone_torso001
+    400378: unused sc2physics_bone_torso001_end
+    400380: unused vol_shield
+    400382: unused vol_shield_end
+    400384: unused vol_target
+    400386: unused vol_target 01
+    400388: unused vol_target 01_end
+    400390: unused vol_target_end
+    400392: wristguard left
+    400394: wristguard left_end
+    2100000: 38_Base(1)_1_0_0
+    2100002: 38_Base(2)_1_0_0
+    2100004: 38_Base_1_0_0
+    2100006: cfb89173_dds
+    2100008: 87189709_dds
+    2100010: 3f10a1b8_dds
+    2100012: 23b2fe77_dds
+    2100014: f3a12b5f_dds
+    2100016: Material__1103
+    2300000: DrawCall_0009.000
+    2300002: DrawCall_0010.000
+    2300004: DrawCall_0011.000
+    2300006: DrawCall_0012.000
+    2300008: DrawCall_0013.000
+    2300010: DrawCall_0014.000
+    2300012: DrawCall_0015.000
+    2300014: DrawCall_0016.000
+    2300016: DrawCall_0017.000
+    2300018: DrawCall_0018.000
+    2300020: DrawCall_0019.000
+    2300022: Plane01.000
+    3300000: DrawCall_0009.000
+    3300002: DrawCall_0010.000
+    3300004: DrawCall_0011.000
+    3300006: DrawCall_0012.000
+    3300008: DrawCall_0013.000
+    3300010: DrawCall_0014.000
+    3300012: DrawCall_0015.000
+    3300014: DrawCall_0016.000
+    3300016: DrawCall_0017.000
+    3300018: DrawCall_0018.000
+    3300020: DrawCall_0019.000
+    3300022: Plane01.000
+    4300000: 38_Base(1)_1_0_0
+    4300002: 38_Base(2)_1_0_0
+    4300004: 38_Base_1_0_0
+    4300006: DrawCall_0019.000
+    4300008: DrawCall_0009.000
+    4300010: DrawCall_0010.000
+    4300012: DrawCall_0011.000
+    4300014: DrawCall_0012.000
+    4300016: DrawCall_0013.000
+    4300018: DrawCall_0014.000
+    4300020: DrawCall_0015.000
+    4300022: DrawCall_0016.000
+    4300024: DrawCall_0017.000
+    4300026: DrawCall_0018.000
+    4300028: Plane01.000
+    9500000: //RootNode
+    10800000: Lamp
+    10800002: Lamp.001
+    10800004: Lamp.002
+    13700000: 38_Base(1)_1_0_0
+    13700002: 38_Base(2)_1_0_0
+    13700004: 38_Base_1_0_0
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
