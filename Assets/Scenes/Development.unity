@@ -599,13 +599,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291377424}
-  m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
+  m_LocalRotation: {x: 0.443968, y: -0, z: -0, w: 0.8960426}
   m_LocalPosition: {x: 0, y: 7.23, z: -3.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 52.715004, y: 0, z: 0}
 --- !u!81 &291377426
 AudioListener:
   m_ObjectHideFlags: 0
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Z_offset","value":{"$content":3.8,"$type":"System.Single"},"$version":"A"},{"name":"Y_offset","value":{"$content":6.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Z_offset","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Y_offset","value":{"$content":6.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &309583581
 PrefabInstance:
@@ -5050,7 +5050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorFromLight: 1
   colorMode: 0
-  color: {r: 0.990566, g: 0.58232766, b: 0.2943663, a: 1}
+  color: {r: 9.082411, g: 5.3258114, b: 2.7104576, a: 1}
   colorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
