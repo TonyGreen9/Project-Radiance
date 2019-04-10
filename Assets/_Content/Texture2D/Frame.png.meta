@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 011e2dcb13cbaa8b4b108c3ba3878211
+guid: 3717992e9b681d54b94c877315928582
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Background
+    21300000: UISprite
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background
+      name: UISprite
       rect:
         serializedVersion: 2
         x: 0.02675098
@@ -128,7 +128,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b27a36dc95cbac4997d753776046954
+      spriteID: 8166502c9a6dc2e43a4e020375dece0b
       vertices: []
       indices: 
       edges: []
