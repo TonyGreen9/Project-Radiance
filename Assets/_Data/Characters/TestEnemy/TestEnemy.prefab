@@ -475,6 +475,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4206027403830989920}
   - component: {fileID: 4206027403818992990}
+  - component: {fileID: 7277623839852633257}
+  - component: {fileID: 1057081307888099243}
   m_Layer: 0
   m_Name: Pug_Melee_mesh
   m_TagString: Untagged
@@ -572,6 +574,37 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.24211589, y: 0.9538909, z: 0.000000059604645}
     m_Extent: {x: 0.6328707, y: 1.2264866, z: 0.7363959}
   m_DirtyAABB: 0
+--- !u!114 &7277623839852633257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206027403830495296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1057081307888099243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206027403830495296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 3a9fe14649ef0e942b1496d46b8a87b0, type: 2}
 --- !u!1 &4206027403830495298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,5 +1192,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceToPlayer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"DistanceToRespawn","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ChaseTarget","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Shuffle","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Healt","value":{"$content":15,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceToPlayer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"DistanceToRespawn","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ChaseTarget","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Shuffle","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Healt","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"Outline","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
