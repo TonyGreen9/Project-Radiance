@@ -1336,6 +1336,7 @@ GameObject:
   - component: {fileID: 7725836383229333296}
   - component: {fileID: 5718127342552893332}
   - component: {fileID: 7725836383229333297}
+  - component: {fileID: 1022122231624442915}
   m_Layer: 0
   m_Name: TestEnemy
   m_TagString: Enemy
@@ -1448,3 +1449,19 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceToPlayer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"DistanceToRespawn","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ChaseTarget","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Shuffle","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"Outline","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &1022122231624442915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725836383229333294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ecd87297123560042bdeaf069cc35877, type: 2}
