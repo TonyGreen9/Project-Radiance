@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7921603008695715106}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5.4, z: 0}
+  m_LocalPosition: {x: 0, y: 3.563, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8450908007944095641}
@@ -72,9 +72,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 300
-  m_Range: 25
-  m_SpotAngle: 145
+  m_Intensity: 10
+  m_Range: 5
+  m_SpotAngle: 109.7
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -2008,8 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"ProjectileSpawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CastTime","value":{"$content":0.15,"$type":"System.Single"},"$version":"A"},{"name":"TargetListInConus","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"NearestTarget","value":null,"$version":"A"},{"name":"NearestTargetInCone","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ProjectileSpawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CastTime","value":{"$content":0.15,"$type":"System.Single"},"$version":"A"},{"name":"TargetListInConus","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"NearestTarget","value":null,"$version":"A"},{"name":"NearestTargetInCone","value":null,"$version":"A"},{"name":"HeroHealth","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8939833846648492318}
 --- !u!1 &8450908007944199101
