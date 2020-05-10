@@ -74,7 +74,7 @@ Material:
     - Vector2_198915A6: {r: -0.005, g: 0.07, b: 0, a: 0}
     - Vector2_19B4B16F: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_1C07CE19: {r: 3, g: 3, b: 0, a: 0}
-    - Vector2_490D8: {r: 0.0012, g: 0.01, b: 0, a: 0}
+    - Vector2_490D8: {r: 0.003, g: 0.01, b: 0, a: 0}
     - Vector2_943E464: {r: 1.5, g: 1.5, b: 0, a: 0}
     - Vector2_FE48D45E: {r: -0.13, g: 0.06, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
